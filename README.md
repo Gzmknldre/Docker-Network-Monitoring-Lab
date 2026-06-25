@@ -43,3 +43,12 @@ services:
 volumes:
   prometheus_data:
   grafana_data:
+
+
+##KURULUM VE ÇALIŞTIRMA ADIMLARI
+
+1. Proje klasörünün içinde terminali açın
+2.docker compose up -d (tüm monitoring alt yapısını arka planda başlatın)
+3. docker ps (servislerin durumunu kontrol etmek için)
+4. tarayıcınızdan Grafana paneline erişin (http://localhost:3000)
+
